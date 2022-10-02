@@ -1,0 +1,249 @@
+    1  mkdir altschool\ exercises 
+    2  git init
+    3  ls -a
+    4  file .git 
+    5  rm -r .git/
+    6  cd altschool\ exercises/
+    7  git init
+    8  ifconfig
+    9  cd
+   10  ifconfig
+   11  ip a
+   12  apt update
+   13  sudo apt update
+   14  sudo install net-tools
+   15  sudo apt install net-tools
+   16  ifconfig
+   17  ifconfig > ifconfig_output.txt
+   18  ls ifconfig_output.txt 
+   19  cat ifconfig_output.txt 
+   20  ls
+   21  mv ifconfig_output.txt altschool\ exercises/
+   22  ls
+   23  cd altschool\ exercises/
+   24  git status
+   25  git add ifconfig_output.txt 
+   26  git commit -m "Out of ifconfig command"
+   27  git commit -m "Output of ifconfig command"
+   28  git branch -M main
+   29  git remote
+   30  git remote add origin https://github.com/gbotosh/altschool-classwork/first exercise.git
+   31  git push -u origin
+   32  git remote add origin https://github.com/gbotosh/altschool-classwork/first\ exercise.git
+   33  git status
+   34  git push -u origin main
+   35  git remote add origin https://github.com/gbotosh/altschool-classwork.git
+   36  git push -u origin main
+   37  git remote
+   38  git push -u origin main
+   39  git origin remove 
+   40  git remove -v
+   41  git remote -v
+   42  git remote rm
+   43  git remote remove
+   44  git remote remove  https://github.com/gbotosh/altschool-classwork/first exercise.git
+   45  git remote remove origin
+   46  git git
+   47  clear
+   48  git remote add origin https://github.com/gbotosh/altschool-classwork.git
+   49  git push -u origin
+   50  git push -u origin main
+   51  git remote remove origin
+   52  git remote add origin git@github.com:gbotosh/altschool-classwork.git
+   53  git push -u origin main
+   54  clear
+   55  ls -al ~/.ssh
+   56  ssh-keygen -t ed25519 -C laolugbotoso@gmail.com
+   57  ls -al ~/.ssh
+   58  clip < ~/.ssh/id_ed25519.pub
+   59  sudo apt install geomview
+   60  clip < ~/.ssh/id_ed25519.pub
+   61  vi ~/.ssh/id_ed25519.pub
+   62  clear
+   63  git push -u origin main
+   64  git status
+   65  git remote remove origin
+   66  git remote
+   67  git remote add origin git@github.com:gbotosh/altschool-classwork.git
+   68  git push -u origin main
+   69  git clone git@github.com:gbotosh/altschool-classwork.git
+   70  ls
+   71  cd altschool-classwork/
+   72  ls
+   73  cd ..
+   74  git push -u origin main
+   75  ls 
+   76  mv ifconfig_output.txt  altschool-classwork/
+   77  cd altschool-classwork/git status
+   78  cd altschool-classwork/
+   79  git status
+   80  git add ifconfig_output.txt 
+   81  git commit -m "adding ifconfig command output"
+   82  git push -u origin main
+   83  mv Vagrantfile ifconfig_output.txt first\ exercise/
+   84  ls
+   85  git status
+   86  git add .
+   87  git commit -m "Put all files in same exercise folder"
+   88  git push -u origin main
+   89  mv first\ exercise/ Exercise\ 1
+   90  git status
+   91  git add .
+   92  git commit -m "Rename folder"
+   93  git push -u origin main
+   94  cd ..
+   95  mv altschool\ exercises/ altschool\ cloud\ engineering\  
+   96  cd altschool\ cloud\ engineering\ 
+   97  ls
+   98  clear
+   99  ls /
+  100  ls /bin
+  101  which bash
+  102  ls /usr/bin
+  103  clear
+  104  apt search openssh-server
+  105  sudo ufw status numbered
+  106  ufw allow ssh
+  107  sudo ufw allow ssh
+  108  sudo ufw enable
+  109  ip a
+  110  clear
+  111  bash --version
+  112  ls
+  113  cd altschool\ cloud\ engineering\ /
+  114  ~
+  115  ~-
+  116  cd ~
+  117  ~-
+  118  mv altschool\ cloud\ engineering\ / altschool\ cloud\ engineering
+  119  ls
+  120  ls
+  121  mkdir git_linux_tutorial
+  122  touch my-practice-file.txt
+  123  vim my-practice-file.txt 
+  124  mv my-practice-file.txt git_linux_tutorial/
+  125  cd git_linux_tutorial/
+  126  git init
+  127  git status
+  128  git add .
+  129  git status
+  130  git commit -m "my first"
+  131  git remote add origin git@github.com:gbotosh/git_tutorial.git
+  132  git push -u origin master
+  133  ls -al
+  134  git remote
+  135  git remote remove origin
+  136  git remote
+  137  git branch -M main
+  138  git remote add origin git@github.com:gbotosh/vagrant-tutorial.git
+  139  git push -u origin main
+  140  cd 
+  141  rm -r git_linux_tutorial/
+  142  ls
+  143  rm help
+  144  rm --help
+  145  rm -rf git_linux_tutorial/
+  146  ls
+  147  clear
+  148  exit
+  149  ifconfig
+  150  ping 192.168.56.1
+  151  ping google.com
+  152  exit
+  153  ping 192.168.187.177
+  154  ip a
+  155  exit
+  156  clear
+  157  ip a
+  158  exit
+  159  ip a
+  160  exit
+  161  ip a
+  162  exit
+  163  ip a
+  164  exit
+  165  ip a
+  166  exit
+  167  ping 8.8.8.8
+  168  ip a
+  169  ping 192.168.56.1
+  170  exit
+  171  ip a
+  172  ping 192.168.56.1
+  173  ip a
+  174  ping 192.168.56.1
+  175  ping 192.168.56.104
+  176  ping 8.8.8.8
+  177  exit
+  178  clear
+  179  systemctl get-default 
+  180  sudo systemctl set-default multi-user.target
+  181  sudo systemctl reboot
+  182  do-release-upgrade
+  183  ls
+  184  exit
+  185  lsb_release -a
+  186  clear
+  187  man lsb_release
+  188  cat /etc/*release
+  189  ls /etc/*release
+  190  cat /etc/lsb-release
+  191  clear
+  192  lsmem
+  193  clear
+  194  man lsmem
+  195  history
+  196  clear
+  197  man history
+  198  history --help
+  199  clear
+  200  useradd -D
+  201  cat /etc/shell
+  202  echo $0
+  203  cat /etc/shells
+  204  clear
+  205  su -
+  206  su - root
+  207  cd /
+  208  cd ~
+  209  su -
+  210  clear
+  211  echo $PS1
+  212  printenv EDITOR
+  213  printenv editor
+  214  printenv HOME
+  215  echo $EDITOR
+  216  echo $MAIL
+  217  echo $UID
+  218  echo $LOGNAME
+  219  clear
+  220  exit
+  221  ls
+  222  cd altschool\ cloud\ engineering/
+  223  ls
+  224  cd altschool-classwork/
+  225  ls
+  226  cd Exercise\ 1/ls
+  227  cd Exercise\ 1/
+  228  ls
+  229  clear
+  230  cd ..
+  231  mkdir 'Exercise 2'
+  232  ls
+  233  cd Exercise\ 2/
+  234  touch 'First command - lsmem'.txt
+  235  cat lsmem > First\ command\ -\ lsmem.txt 
+  236  lsmem > First\ command\ -\ lsmem.txt 
+  237  cat First\ command\ -\ lsmem.txt 
+  238  cd ..
+  239  git status
+  240  git add .
+  241  git status
+  242  git commit -m "Create Exercise 2 file"
+  243  git push
+  244  ls
+  245  cd Exercise\ 2/
+  246  ls
+  247  clear
+  248  touch 'Second command - history'.txt
+  249  history > Second\ command\ -\ history.txt 
